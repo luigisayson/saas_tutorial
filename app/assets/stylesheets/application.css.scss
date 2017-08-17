@@ -29,30 +29,22 @@
   background: lin ear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
  }
- 
+ //Nav styles
  .navbar{
   border: none;
  }
 
-.navbar-default .navbar-brand{
- color: white;
-}
-
+.navbar-default .navbar-brand, 
 .navbar-default .navbar-nav > li > a {
-  color: white;
-}
-
-.navbar-default .navbar-brand:hover{
  color: white;
- opacity: 0.75;
+ &:hover{
+  color:white;
+  opacity: 0.75;
+ }
 }
 
-.navbar-default .navbar-nav > li > a:hover{
-  color: white;
-  opacity:0.75;
-}
 
-
+//Home page styles
 .home-callout{
   color: white;
   margin-top: -20px;
