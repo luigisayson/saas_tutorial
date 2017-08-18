@@ -39,7 +39,7 @@
 
 .navbar-brand {
   font-family: 'Saira semi condensed', sans-serif;
-/  font-weight: 800;
+  font-weight: 800;
 }
 
 .navbar-default .navbar-brand, 
@@ -49,6 +49,16 @@
   color:white;
   opacity: 0.75;
  }
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #6dd5ed;
+  }
 }
 
 
